@@ -6,6 +6,15 @@ footer {
     position: relative;
 }
 
+
+.fill-top-nous{
+    width:100wh;
+    background-color: rgb(66, 67, 67);
+    height: 30px;
+    position: relative;
+    top: -55px;
+}
+
 /* div nous */
 .nous {
     display: flex;
@@ -21,7 +30,6 @@ footer {
     position: absolute;
     left: 20%;
     top: -25px;
-    
 }
 
 .puce {
