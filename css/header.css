@@ -36,9 +36,15 @@ div.panier {
 
 div.panier a {
     display:flex;
+    align-items: center;
     padding: 0px 20px;
+    /* margin: 0px 20px; */
     text-decoration: none;
     color: black;
+}
+
+div.panier a p {
+    padding-left:10px;
 }
 
 .header-bonjour {
