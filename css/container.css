@@ -1,10 +1,7 @@
-.container-cards {
-    height: auto;
-    grid-row: 2;
+
+.container {
     width: 80%;
     margin: auto;
-    padding-bottom: 100px;
-    background-color: white;
 }
 
 #container-img {
@@ -12,13 +9,14 @@
 }
 
 .container-cards {
-    width: 80%;
-    margin: auto;
+    height: auto;
+    grid-row: 2;
+    padding-bottom: 100px;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 
@@ -30,8 +28,7 @@
     text-align: center;
     vertical-align: bottom;
     position: relative;
-    margin:40px;
-    margin-right: 40px;
+    margin: 60px 40px;
 }
 
 .card-image {
