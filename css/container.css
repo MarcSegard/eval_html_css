@@ -1,6 +1,10 @@
 .container-cards {
     height: auto;
     grid-row: 2;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    background-color: white;
 }
 
 #container-img {

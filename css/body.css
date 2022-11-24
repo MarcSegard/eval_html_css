@@ -1,4 +1,6 @@
 body {
     display: grid;
     grid-template-rows: "3";
+    background: radial-gradient(white
+    ,black);
 }
