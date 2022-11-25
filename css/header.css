@@ -14,9 +14,12 @@ header {
     justify-content: space-around;
 }
 
-.header-fill {
-    width: 5px;
-    background: linear-gradient(to top,#ea9f06, white);
+.header-logo {
+    padding-left: 200px;
+    border-left-style: solid;
+    border-left-width: 5px; 
+    border-image: linear-gradient(white, #ea9f06);
+    border-image-slice: 1;
 }
 
 .panier {
