@@ -77,6 +77,10 @@
 .card-prices {
     display: flex;
     margin-top: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px; 
+    border-image: linear-gradient(0.25turn, transparent, black);
+    border-image-slice: 1;
 }
 
 .card-reduction{
