@@ -64,3 +64,46 @@ header table td{
 header table td:last-child {
     border-right: solid 1px black;
 }
+
+@media screen and (max-device-width: 900px) {
+    
+    .header-logo img, .header-logo {
+        width: 100px;
+        height: 50px;
+    }
+
+    .header-logo p {
+        font-size: 12px;
+    }
+    
+    .panier img {
+        width: 20px;
+    }
+
+    .header-bonjour {
+        font-size: 18px;
+    }
+
+    .header-menu {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-device-width: 620px) {
+    
+    .header-right {
+        background-color: white;
+    }
+    
+    .panier {
+        border: none;
+        padding:0;
+        margin:0;
+        width:0px;
+    }
+    
+    
+    .panier p {
+        display: none;
+    }
+}
