@@ -39,16 +39,16 @@
 
 .cards-pourcent{
     position: absolute;
-    width: 100px;
     left: 310px;
     top: 10px;
-    font-size: 2rem;
+    width: 75px;
+    vertical-align: center;
+    font-size: 1.6rem;
     margin-left: 10px;
     color: rgb(234,159,6);
     background: linear-gradient(to right,black, rgb(90, 87, 87));
     border-radius: 10px;
-    border: solid 2px black;
-
+    box-shadow: -2px -2px 7px 4px #a19c9c inset;
 }
 
 
